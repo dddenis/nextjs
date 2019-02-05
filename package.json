@@ -1,0 +1,22 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "analyze": "BUNDLE_ANALYZE=both next build"
+  },
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "widget-lite": "../widget-lite"
+  },
+  "devDependencies": {
+    "next-plugin-transpile-modules": "^1.1.0"
+  }
+}
